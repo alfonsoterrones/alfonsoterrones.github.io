@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: You're up and running Java2!
 ---
 ![First Post](/images/javascript1.png "First Post")
 UEEEEEEEEEEEEEEEEEEEEEEnd other options using the _config.yml file in the root of your repository (shown below).
