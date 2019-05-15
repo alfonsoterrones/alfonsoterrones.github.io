@@ -17,6 +17,13 @@ html {
   font-size: 100%;
 }
 
+.masthead > a > img {
+  -moz-border-radius: 68px 68px 68px 68px;
+  -moz-border-radius: 22px 22px 22px 22px;
+  -webkit-border-radius: 22px 22px 22px 22px;
+  border: 0px dashed #000000;
+}
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
