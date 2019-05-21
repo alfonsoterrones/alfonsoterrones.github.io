@@ -17,12 +17,21 @@ html {
   font-size: 100%;
 }
 
+/*Estilos del logo*/
 .masthead > a > img {
   -moz-border-radius: 68px 68px 68px 68px;
   -moz-border-radius: 22px 22px 22px 22px;
   -webkit-border-radius: 22px 22px 22px 22px;
   border: 0px dashed #000000;
-  
+}
+/* Menu */
+nav > a:hover, a:active {
+  background-color: #52d8eb;
+  color: white;
+}
+nav > a {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 body {
