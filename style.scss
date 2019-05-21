@@ -55,6 +55,17 @@ nav > a {
     text-align: left;
   }
 }
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
