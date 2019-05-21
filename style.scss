@@ -27,11 +27,23 @@ html {
 /* Menu */
 nav > a:hover{
   background-color: #52d8eb !important;
-  color: white !important;;
+  color: white !important;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: all 0.5s;
 }
 nav > a {
-  padding-left: 13px; 
-  padding-right: 13px; 
+  padding-left: 21px;
+  padding-right: 21px;
+  -moz-border-radius: 85px 85px 85px 85px;
+  border-radius: 33px 33px 33px 33px;
+  -moz-border-radius: 33px 33px 33px 33px;
+  -webkit-border-radius: 33px 33px 33px 33px;
+  border: 0px solid #000000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: all 0.5s;
 }
 /* Amburguesa */
 @media screen and (max-width: 600px) {
@@ -275,7 +287,6 @@ nav {
   }
 
   a {
-    margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
