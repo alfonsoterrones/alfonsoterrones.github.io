@@ -25,13 +25,13 @@ html {
   border: 0px dashed #000000;
 }
 /* Menu */
- a:hover{
-  background-color: #52d8eb;
-  color: white;
+nav > a:hover{
+  background-color: #52d8eb !important;
+  color: white !important;;
 }
- a {
-  padding-left: 70px;
-  padding-right: 70px;
+nav > a {
+  padding-left: 70px !important;;
+  padding-right: 70px !important;;
 }
 
 body {
