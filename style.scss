@@ -25,11 +25,11 @@ html {
   border: 0px dashed #000000;
 }
 /* Menu */
-nav > a:hover, a:active {
+ a:hover{
   background-color: #52d8eb;
   color: white;
 }
-nav > a {
+ a {
   padding-left: 70px;
   padding-right: 70px;
 }
