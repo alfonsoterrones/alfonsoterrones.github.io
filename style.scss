@@ -30,8 +30,8 @@ nav > a:hover{
   color: white !important;;
 }
 nav > a {
-  padding-left: 70px !important;;
-  padding-right: 70px !important;;
+  padding-left: 18px; 
+  padding-right: 18px; 
 }
 
 body {
@@ -228,7 +228,7 @@ img {
 }
 
 nav {
-  float: right;
+  float: center;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
