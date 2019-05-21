@@ -30,8 +30,8 @@ nav > a:hover{
   color: white !important;;
 }
 nav > a {
-  padding-left: 18px; 
-  padding-right: 18px; 
+  padding-left: 13px; 
+  padding-right: 13px; 
 }
 /* Amburguesa */
 @media screen and (max-width: 600px) {
@@ -220,6 +220,8 @@ img {
 
 .site-info {
   float: left;
+  padding-right: 44%;
+  padding-bottom: 6%;
 
   @include mobile {
     float: none;
