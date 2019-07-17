@@ -61,9 +61,14 @@ html {
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
   display: none;
 }
-
+.site-info {
+  display: inline;
+}
 /* Amburguesa */
 @media screen and (max-width: 600px) {
+  .site-info {
+    display: none;
+}
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     display: table;
   }
