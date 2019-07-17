@@ -67,6 +67,12 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+  .topnav > a.menu {
+    display: none;
+  }
+  .responsive > a.menu {
+    display: block;
+  }
 /*   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
