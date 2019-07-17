@@ -57,16 +57,17 @@ html {
   -webkit-border-radius: 0px 0px 61px 61px;
   border: 0px solid #000000;
 }
+/*amburguesa*/
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before,
+nav#myTopnav {
+  display: none;
+}
 /* Amburguesa */
 @media screen and (max-width: 600px) {
-/*   .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  } */
-}
-
-@media screen and (max-width: 600px) {
+  .fa-navicon:before, .fa-reorder:before, .fa-bars:before,
+  nav#myTopnav {
+    display: table;
+  }
   .topnav > a.menu {
     display: none;
   }
