@@ -62,8 +62,14 @@ html {
 nav#myTopnav {
   display: none;
 }
+.site-info {
+  display: unset;
+}
 /* Amburguesa */
 @media screen and (max-width: 600px) {
+  .site-info {
+    display: none;
+}
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before,
   nav#myTopnav {
     display: table;
