@@ -17,7 +17,7 @@ Inside /lib is the works custom.
 1. **MySQL:** this container ornagaze service mysql, its directories and configurations.
 1. **Sparql:** this container have a database MySQL that maneges all Drupal’s taxonomies, subthemes, configurations.
 
-## docker utility commands
+## Docker utility commands
 1. **docker-compose stop** -> stop docker and its services.
 1. **docker-compose up -d** -> start docker and its services.
 1. **docker ps** -> it shows the status of all running process along theirs ID’s.
@@ -25,6 +25,7 @@ Inside /lib is the works custom.
 1. **docker-compose exec web ./vendor/bin/run toolkit:install-clean** -> Eject “toolkit:install-clean” in “./vendor/bin/”, this command installs our Drupal.
 1. **docker-compose exec web composer install** -> whithin the “Web” services we ejecute this command “composer install".
 
+## Files of interest
 1. **.env** -> Enviroment variables, it values are availables to containers.
 1. **./docker-compose.yml.** ->The default path for a Compose file is
 
