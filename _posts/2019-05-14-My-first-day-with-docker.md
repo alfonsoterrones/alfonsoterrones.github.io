@@ -1,0 +1,30 @@
+---
+layout: post
+title: My first day with Docker!
+---
+![First Post](/images/docker.png "First Post")
+
+This is my first blog post in english and its possibility that I have a lot of grammatical errors.
+
+The Compose file is a YAML file defining services, networks and volumes. Our proyect have four services (web, mysql, selenium, sparql )
+
+Services/Containers
+The id of de containers can change but its alias never change.
+Inside /lib is the works custom.
+
+## Services
+**Web:** this container organize service apache, Its directories and configurations.
+**MySQL:** this container ornagaze service mysql, its directories and configurations.
+**Sparql:** this container have a database MySQL that maneges all Drupal’s taxonomies, subthemes, configurations
+
+## docker utility commands
+**docker-compose stop** -> stop docker and its services
+**docker-compose up -d** -> start docker and its services
+**docker ps** -> it shows the status of all running process along theirs ID’s
+**docker inspect** -> return slow-level information on Docker object, we get ip to proyect deploy.
+**docker-compose exec web ./vendor/bin/run toolkit:install-clean** -> Eject “toolkit:install-clean” in “./vendor/bin/”, this command installs our Drupal.
+**docker-compose exec web composer install** -> whithin the “Web” services we ejecute this command “composer install”
+
+**.env** -> Enviroment variables, it values are availables to containers.
+**./docker-compose.yml.** ->The default path for a Compose file is
+
