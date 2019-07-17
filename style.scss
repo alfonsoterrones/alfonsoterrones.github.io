@@ -67,7 +67,7 @@ html {
 /* Amburguesa */
 @media screen and (max-width: 600px) {
   .site-info {
-    display: none;
+    display: none !important;
 }
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     display: table;
