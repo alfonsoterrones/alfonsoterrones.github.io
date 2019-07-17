@@ -58,15 +58,13 @@ html {
   border: 0px solid #000000;
 }
 /*amburguesa*/
-.fa-navicon:before, .fa-reorder:before, .fa-bars:before,
-nav#myTopnav {
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
   display: none;
 }
 
 /* Amburguesa */
 @media screen and (max-width: 600px) {
-  .fa-navicon:before, .fa-reorder:before, .fa-bars:before,
-  nav#myTopnav {
+  .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     display: table;
   }
   .topnav > a.menu {
