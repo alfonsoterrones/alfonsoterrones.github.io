@@ -13,18 +13,18 @@ The id of de containers can change but its alias never change.
 Inside /lib is the works custom.
 
 ## Services
-**Web:** this container organize service apache, Its directories and configurations.
-**MySQL:** this container ornagaze service mysql, its directories and configurations.
-**Sparql:** this container have a database MySQL that maneges all Drupal’s taxonomies, subthemes, configurations
+1. **Web:** this container organize service apache, Its directories and configurations.
+1. **MySQL:** this container ornagaze service mysql, its directories and configurations.
+1. **Sparql:** this container have a database MySQL that maneges all Drupal’s taxonomies, subthemes, configurations.
 
 ## docker utility commands
-**docker-compose stop** -> stop docker and its services
-**docker-compose up -d** -> start docker and its services
-**docker ps** -> it shows the status of all running process along theirs ID’s
-**docker inspect** -> return slow-level information on Docker object, we get ip to proyect deploy.
-**docker-compose exec web ./vendor/bin/run toolkit:install-clean** -> Eject “toolkit:install-clean” in “./vendor/bin/”, this command installs our Drupal.
-**docker-compose exec web composer install** -> whithin the “Web” services we ejecute this command “composer install”
+1. **docker-compose stop** -> stop docker and its services.
+1. **docker-compose up -d** -> start docker and its services.
+1. **docker ps** -> it shows the status of all running process along theirs ID’s.
+1. **docker inspect** -> return slow-level information on Docker object, we get ip to proyect deploy.
+1. **docker-compose exec web ./vendor/bin/run toolkit:install-clean** -> Eject “toolkit:install-clean” in “./vendor/bin/”, this command installs our Drupal.
+1. **docker-compose exec web composer install** -> whithin the “Web” services we ejecute this command “composer install".
 
-**.env** -> Enviroment variables, it values are availables to containers.
-**./docker-compose.yml.** ->The default path for a Compose file is
+1. **.env** -> Enviroment variables, it values are availables to containers.
+1. **./docker-compose.yml.** ->The default path for a Compose file is
 
