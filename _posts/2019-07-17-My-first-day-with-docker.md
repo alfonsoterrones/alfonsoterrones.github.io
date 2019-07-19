@@ -26,6 +26,7 @@ Inside /lib is the works custom.
 1. **docker-compose exec web composer install** -> whithin the “Web” services we ejecute this command “composer install".
 1. **docker-compose exec web /bin/bash** -> open prompt mysql.
 1. **cp db/dump.sql 044304abaf34:/tmp/dump.sql** -> cp dump to Mysql services.
+1. **docker-compose exec mysql mysql -u root -p** -> open Mysql
 
 ## Files of interest
 1. **.env** -> Enviroment variables, it values are availables to containers.
