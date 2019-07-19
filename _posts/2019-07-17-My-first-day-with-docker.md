@@ -30,5 +30,5 @@ Inside /lib is the works custom.
 
 ## Files of interest
 1. **.env** -> Enviroment variables, it values are availables to containers.
-1. **./docker-compose.yml.** ->The default path for a Compose file is
+1. **./docker-compose.yml.** -> This is default path for a Compose file
 
