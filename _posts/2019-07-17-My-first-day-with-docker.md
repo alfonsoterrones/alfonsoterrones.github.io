@@ -24,6 +24,8 @@ Inside /lib is the works custom.
 1. **docker inspect** -> return slow-level information on Docker object, we get ip to proyect deploy.
 1. **docker-compose exec web ./vendor/bin/run toolkit:install-clean** -> Eject “toolkit:install-clean” in “./vendor/bin/”, this command installs our Drupal.
 1. **docker-compose exec web composer install** -> whithin the “Web” services we ejecute this command “composer install".
+1. **docker-compose exec web /bin/bash** -> open prompt mysql.
+1. **cp db/dump.sql 044304abaf34:/tmp/dump.sql** -> cp dump to Mysql services
 
 ## Files of interest
 1. **.env** -> Enviroment variables, it values are availables to containers.
