@@ -29,6 +29,7 @@ Inside /lib is the works custom.
 1. **docker cp ./europass_dump.sql $IDCONTAINER:/tmp/** -> cp dump to Mysql services.
 1. **docker-compose exec mysql mysql -u root -p** -> open Mysql
 1. **docker system prune -f** ->  reset docker after "docker-compose stop"
+1. **docker-compose exec web ./vendor/bin/drush cex** -> drush config-export
 
 ## Files of interest
 1. **.env** -> Enviroment variables, it values are availables to containers.
