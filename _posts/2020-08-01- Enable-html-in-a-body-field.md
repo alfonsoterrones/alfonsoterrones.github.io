@@ -10,8 +10,6 @@ A body field within block has't a html formatter by default, to enable this func
 
 Go to admin panel, in the following url "Content authoring/text formats and editors"
 
-![first place](/images/enablehtmlpost/Captura de pantalla de 2019-08-01 22-23-54.png "First place")
-| ![Picture from Unsplash, by @hannahmgibbs]({{ site.baseurl }}/images/enablehtmlpost/Captura de pantalla de 2019-08-01 22-23-54.png) |
-|:--:|
+ ![Picture from Unsplash, by @hannahmgibbs]({{ site.baseurl }}/images/enablehtmlpost/Captura de pantalla de 2019-08-01 22-23-54.png)
 
 
