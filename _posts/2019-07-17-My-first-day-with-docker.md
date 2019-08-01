@@ -24,6 +24,9 @@ Inside /lib is the works custom.
 1. **docker inspect** -> return slow-level information on Docker object, we get ip to proyect deploy.
 1. **docker-compose exec web ./vendor/bin/run toolkit:install-clean** -> Eject “toolkit:install-clean” in “./vendor/bin/”, this command installs our Drupal.
 1. **docker-compose exec web composer install** -> whithin the “Web” services we ejecute this command “composer install".
+1. **docker-compose exec web ./vendor/bin/drush sql-drop --yes** -> Drop proyect database.
+1. **docker-compose exec web ./vendor/bin/drush sql-create --yes** -> Create proyect database.
+1. **docker-compose exec -T web ./vendor/bin/drush sqlc < ./db/europass_dump.sql** -> Load proyect database.
 
 ## Files of interest
 1. **.env** -> Enviroment variables, it values are availables to containers.
