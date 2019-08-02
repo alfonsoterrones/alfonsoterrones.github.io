@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable html in a field!
+title: Enable tag html in a field!
 ---
 ![First Post](/images/html-codes.jpg "First Post")
 
