@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running Java2!
+title: URL en vistas!
 ---
-![First Post](/images/javascript1.png "First Post")
-UEEEEEEEEEEEEEEEEEEEEEEnd other options using the _config.yml file in the root of your repository (shown below).
+![File View](/images/files.png "File View")
+Como enlazar el título de un nodo a un fichero que se encuentre dentro del mismo nodo.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
