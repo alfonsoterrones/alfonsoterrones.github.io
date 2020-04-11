@@ -1,6 +1,6 @@
 ---
 layout: post
-title: URL en vistas!
+title: Renderizar vistas!
 ---
 ![File View](/images/files.jpg "File View")
 Como enlazar el título de un nodo a un fichero que se encuentre dentro del mismo nodo.
